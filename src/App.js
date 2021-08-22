@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react'
 import Header from './components/header/header.js';
 import Settings from './components/settings/settings.js'
 import { Container } from '@material-ui/core';

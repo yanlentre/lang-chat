@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Typography, InputLabel, MenuItem, FormControl, Select, Input, Checkbox, FormControlLabel, Button } from '@material-ui/core';
+// import { useForm } from "react-hook-form";
 import './settings.css';
 
 const languages = [
@@ -84,7 +85,7 @@ const Settings = () => {
               <Checkbox
                 // checked={state.checkedF}
                 // onChange={handleChange}
-                name="checkedF"
+                name="audio"
                 color="primary"
               />
             }
@@ -95,7 +96,7 @@ const Settings = () => {
               <Checkbox
                 // checked={state.checkedF}
                 // onChange={handleChange}
-                name="checkedF"
+                name="video"
                 color="primary"
               />
             }
@@ -106,7 +107,7 @@ const Settings = () => {
               <Checkbox
                 checked={true}
                 // onChange={handleChange}
-                name="checkedF"
+                name="text"
                 color="primary"
                 disabled
               />
